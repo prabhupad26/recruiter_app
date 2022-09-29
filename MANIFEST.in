@@ -1,0 +1,2 @@
+include src/recruiter_app/config/config.json
+include src/recruiter_app/config/*.csv

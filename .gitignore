@@ -1,0 +1,13 @@
+.idea
+.vscode
+__pycache__
+hush_recruiter_app
+*.csv
+!src/recruiter_app/config/so_skills_count.csv
+!src/recruiter_app/config/gh_skills_count.csv
+!src/recruiter_app/config/rd_skills_count.csv
+!config_files/config/*.csv
+src/recruiter_app.egg-info
+dist
+env_variables_prabhu.list
+src/recruiter_notification_app.egg-info/

@@ -1,0 +1,13 @@
+exec_mode=extract_github
+access_token=
+client_id=
+client_secret=
+github_pat=
+mongo_pass=
+mongo_user=
+session_key=
+session_password=
+reddit_client_id=
+reddit_client_secret=
+reddit_user_name=
+reddit_password=

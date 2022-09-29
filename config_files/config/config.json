@@ -1,0 +1,53 @@
+{
+  "DATABASE": {
+      "sqlite_path": "data/main_db.db"
+  },
+  "DATA_SOURCES": {
+    "STACKOVERFLOW": {
+      "HOST": "https://api.stackexchange.com/",
+      "users": "/users",
+      "multi_user_details": "/users/{0}",
+      "user_top_tags": "/users/{0}/top-tags",
+      "user_top_questions": "2.3/users/{0}/tags/{1}/top-questions",
+      "user_top_answers": "2.3/users/{0}/tags/{1}/top-answers"
+    },
+    "GITHUB": {
+      "HOST": "https://api.github.com",
+      "check_quota": "/users/octocat",
+      "search_users": "/search/users",
+      "user_details": "/users/{0}",
+      "user_repos_list": "/users/{0}/repos",
+      "user_repo_details": "/repos/{0}/{1}",
+      "user_followers_url": "/users/{0}/followers",
+      "user_following_url": "/users/{0}/following"
+    },
+    "REDDIT": {
+      "HOST": "https://oauth.reddit.com/",
+      "token_retrieval": "https://www.reddit.com/api/v1/access_token/",
+      "web_dev_thread": "r/webdev",
+      "devops_thread": "r/devops",
+      "cyber_seq_thread": "r/cybersecurity",
+      "ml_thread": "r/MachineLearning",
+      "py_thread": "r/Python",
+      "comments": "r/{0}/comments/{1}",
+      "user_details": "user/{0}/about"
+    }
+  },
+  "MINING_TARGET": {
+    "SO_COUNT": 4000,
+    "GH_COUNT": {
+      "web developer": 20000,
+      "python developer": 20000,
+      "data scientist": 20000,
+      "full stack developer": 20000,
+      "devops engineer": 20000
+    },
+    "REDDIT_COUNTS": {
+      "web_dev_thread": 20000,
+      "devops_thread": 20000,
+      "cyber_seq_thread": 20000,
+      "ml_thread": 20000,
+      "py_thread": 20000
+    }
+  }
+}
